@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">说吧小助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="authtips">授权提示</string>
+    <string name="authmessage">应用须登录新浪微博进行授权！</string>
+    <string name="huaguangshuoba">华广说吧</string>
+    <string name="message">想说就说吧~</string>
+    <string name="words">140</string>
+    <string name="send">发    布</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="attention">注意</string>
+    <string name="delete_all">清空文字？</string>
+    <string name="change">更改帐号</string>
+    <string name="changetips">更改提示</string>
+    <string name="changemessage">更改帐号须退出应用程序并重新登录授权。是否退出？</string>
+    <string name="about">关于</string>
+    <string name="aboutmsg1">说吧小助手Android版</string>
+    <string name="aboutmsg2">Version：1.0</string>
+    <string name="aboutmsg3">Design By:月亮下de守望者</string>
+    <string name="aboutmsg4">Copyright ©2013 华广说吧</string>
+    <string name="aboutmsg5"> All rights reserved</string>
+    <string name="aboutmsg6">欢迎私信反馈bug•感谢您的支持</string>
+</resources>

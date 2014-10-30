@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <!-- 标题栏部分的布局 -->
+    <RelativeLayout
+        android:id="@+id/Title"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="#01AEF0">
+        <!-- android:background="#01AEF0" -->
+    
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/huaguangshuoba"
+             android:layout_centerInParent="true"
+             android:textSize="24sp"
+             android:textColor="#000"
+             android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <!-- 可编辑文本框以下部分的布局 -->
+    <RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+         <!-- 可编辑文本框的布局 -->
+         <LinearLayout 
+            android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:layout_alignParentTop="true"
+			android:layout_margin="3dp"
+			android:orientation="vertical">
+              <EditText
+                  android:id="@+id/eidtText"
+                  android:singleLine="false" 
+			      android:layout_width="fill_parent"
+			      android:layout_height="fill_parent"
+                  android:hint="@string/message"
+                  android:capitalize="sentences"
+			      android:imeOptions="actionDone"
+			      android:gravity="top|left"
+			      android:isScrollContainer="true"
+			      android:background="@null"
+			      android:layout_margin="3dp"/>  
+         </LinearLayout>
+         
+         <!--字数提示框的布局 -->
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:orientation="horizontal" >
+
+                  <RelativeLayout 
+                      android:id="@+id/rlTotal"
+				      android:layout_width="fill_parent"
+				      android:layout_height="50dp">
+                      <LinearLayout 
+                            android:id="@+id/ll_text_limit_unit"
+                          	android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_centerVertical="true"
+					        android:layout_alignParentRight="true"
+					        android:gravity="center"
+					        android:background="@drawable/bg_delwords"
+					        android:focusable="true"
+					        android:clickable="true" 
+					        android:layout_alignParentBottom="false" >
+					        
+                        <TextView
+						android:id="@+id/text_limit"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/words"
+						android:layout_marginRight="5dp"
+						android:textColor="#ccc"/>
+					
+					    <ImageView
+						android:src="@drawable/icon_delwords"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" />
+                          
+                      </LinearLayout>
+                  </RelativeLayout>
+         </LinearLayout>
+    </RelativeLayout>
+    
+    <!-- 表情及发布按钮部分的布局 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#01AEF0"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            
+            android:background="@drawable/bg_sendbtn"
+			android:focusable="true"
+			
+            android:padding="12dp"
+            android:text="@string/send"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/expression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_expression"
+			android:focusable="true"/>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+           <GridView  
+              android:id="@+id/gridview"  
+              android:layout_width="fill_parent"  
+              android:layout_height="150sp"  
+              android:scrollbars="vertical"  
+              android:numColumns="auto_fit"  
+              android:verticalSpacing="15dp"  
+              android:stretchMode="columnWidth"  
+              android:gravity="center"  
+              android:visibility="gone"  
+              android:columnWidth="40dp">  
+          </GridView> 
+        
+    </RelativeLayout>
+
+</LinearLayout>
