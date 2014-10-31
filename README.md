@@ -16,3 +16,4 @@
 		即将毕业的大四程序员，爱生活，爱网络，爱代码，更爱移动互联。
 		我不是什么工程师，也不是什么大神牛人，我和你一样，为心中的某个理想奋斗!
 		Email:ganxinvip@163.com
+		Site:http://ganxin.sinaapp.com
