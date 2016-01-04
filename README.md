@@ -8,7 +8,7 @@
 
 
 ###DEMO
-		本代码即是Demo,您可以下载后导入ADT中运行。
+		本代码即是Demo,您可以下载后导入Eclipse中运行。
 
 ###Requirements
 		运行平台 Android2.3+
@@ -19,4 +19,3 @@
 		我不是什么工程师，也不是什么大神牛人，
 		我和你一样，为心中的某个理想奋斗!
 		Email:ganxinvip@163.com
-		Site:http://ganxin.sinaapp.com
