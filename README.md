@@ -1,4 +1,4 @@
-# Deprecated
+# @Deprecated
 # ShuoBaHelper-说吧小助手
 ---------------------
 		    一个简单的匿名微博发布端，没什么太复杂的功能，就早期入门Android时做的一个小APP，
